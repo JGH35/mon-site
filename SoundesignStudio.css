@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box; /* corriger la taille des boites */
+}
+body {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    color: #605e5e;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+
+}
+h2{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.contact{
+    background-color:#00c492;
+}
+.footer{
+    background-color: #191a1e;
+    color: #434344;
+}
+li{
+    background-color: #00c492;
+    padding: 10px;
+    border-radius: 5px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+.contact a{
+    color: white;
+    text-decoration: underline;
+}
+.contact p{
+    color: white;
+}
+
+.contact{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.contact > a {
+    font-weight: normal;
+}
+#detail{
+    background-color:#2d343e;
+    color:#c4cbd4;
+    width: auto;
+    font-weight: normal;
+    font-size: 1.0625em;
+    text-decoration: underline;
+}
+#studio{
+    background-color: black;
+    width: 100%;
+    padding: 0 12%;
+}
+p{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+}
+#map{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.carte p{
+    padding: 40px;
+}
+
+.entete > img{
+    background-color: black;
+    width: 100%;
+    padding: 0 12%;
+}
+
+.galerie > img{
+    margin : 10px
+}
+.galerie{
+    background-color: gray;
+    padding: 10px;
+}
+#first{
+    font-size: 20px;
+    padding: 20px;
+}
+.footer > p{
+    font-size: 0.81em;
+}
